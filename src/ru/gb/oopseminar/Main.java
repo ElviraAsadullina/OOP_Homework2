@@ -13,8 +13,6 @@ public class Main extends SecurityManager{
         System.out.println(ANSIConstants.ANSI_GREEN + "ORIGINAL DATA: \n"
                 + ANSIConstants.ANSI_RESET + data1);
         m.tryToCrackData(data1);
-//        System.out.println(ANSIConstants.ANSI_GREEN + "OUTPUT DATA: \n"
-//                + ANSIConstants.ANSI_RESET + data1);
     }
     public Protecteddata getProtectedData() {
         Protecteddata d = new Protecteddata(new String[]{"Ivan Ivanov"}, 123, 12345);
